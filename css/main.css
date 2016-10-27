@@ -7,7 +7,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 *, *::before, *::after {
@@ -20,10 +20,6 @@ h1 {
   background-color: #d05c2e;
   color: #fff;
   margin: 0 0 .7rem;
-}
-
-nav li {
-  display: inline-block;
 }
 
 body {
@@ -46,12 +42,13 @@ a {
   width: 40px;
 }
 
-li {
+nav li {
   float: left;
   width: 33.3333%;
   font-size: 1.125rem;
   border: 1px solid #a63f38;
   text-align: center;
+  display: inline-block;
 }
 
 ul {
