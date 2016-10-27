@@ -13,3 +13,49 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  background-color: #d05c2e;
+  color: #fff;
+  margin: 0 0 .7rem;
+}
+
+nav li {
+  display: inline-block;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  background-color: #d05c2e;
+  color: #fff;
+}
+
+.first {
+  float: left;
+  width: 40px;
+}
+
+.second {
+  float: right;
+  width: 40px;
+}
+
+li {
+  float: left;
+  width: 33%;
+  font-size: 1.125rem;
+}
+
+ul {
+  overflow: hidden;
+}
+
+header {
+  background-color: #d05c2e;
+}
