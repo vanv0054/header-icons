@@ -17,4 +17,18 @@ html {
 header {
   text-align: center;
   font-size: 2rem;
+  background-color: #d05c2e;
+  color: #fff;
+  margin: 0 0 .7rem;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  background-color: #d05c2e;
+  padding: .4rem 0 0;
+  color: #fff;
 }
